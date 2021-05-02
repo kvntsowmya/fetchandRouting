@@ -1,0 +1,35 @@
+.blogItem-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  min-width: 90%;
+  font-family: 'Roboto';
+  flex-grow: 1;
+}
+.image-url {
+  height: 110px;
+  width: 110px;
+  text-decoration: none;
+}
+.avatar-container {
+  display: flex;
+}
+.avatar-image {
+  height: 30px;
+  border-radius: 100%;
+}
+.item-title {
+  color: #8e8e8e;
+  text-decoration: none;
+}
+.item-author {
+  color: #8e8e8e;
+  text-decoration: none;
+  margin: 0;
+  align-self: flex-start;
+}
